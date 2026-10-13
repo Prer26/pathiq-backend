@@ -1,0 +1,6 @@
+Place the trained model files here (not included in the uploaded frontend ZIP):
+- best_model3 (2).pth  (required for road segmentation)
+- yolo_detector.pt     (optional; enables YOLO object detection)
+
+The segmentation weights must match a segmentation_models_pytorch Unet with
+encoder_name=resnet50, in_channels=3, classes=1.
